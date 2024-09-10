@@ -40,7 +40,7 @@ class PyPasswordApp:
             total_length = nr_letters + nr_symbols + nr_numbers
 
             # Check if the total length is within the allowed range
-            if 6 <= total_length <= 20:
+            if 12 <= total_length <= 20:
                 return nr_letters, nr_symbols, nr_numbers
             else:
                 print("The total length of the password must be between 6 and 20 characters.")
