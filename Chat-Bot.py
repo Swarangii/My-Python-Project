@@ -23,9 +23,6 @@ def chatting(text):
     # print(chat.history)
 
 # message=model.generate_content("who i am?")
-
-
-
 # print(message)
 
 if __name__=="__main__":
